@@ -11,7 +11,7 @@ import (
 func main() {
 	http.HandleFunc("/api/thumbnail", thumbnailHandler)
 
-	fs := http.FileServer(http.Dir("./frontend/dist"))
+	fs := http.FileServer(http.Dir("dist"))
 	http.Handle("/", fs)
 
 	fmt.Println("Server Listening on port 3000")
