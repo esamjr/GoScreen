@@ -3,13 +3,11 @@ Generate Thumbnail From any website
 
 ## Run Go Server
 ```
-go run main\server.go
+go run server.go
 ```
 
 ## Project setup
 ```
-cd frontend
-
 npm install
 ```
 
